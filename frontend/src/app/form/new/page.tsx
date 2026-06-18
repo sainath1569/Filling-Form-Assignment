@@ -12,7 +12,7 @@ import { API_BASE } from "@/lib/api";
 export default function FormNewPage() {
   const router = useRouter();
   const { profileId, profile } = useProfileStore();
-  const { setFormAnalys is, isLoading, setLoading, error, setError } = useFormStore();
+  const { setFormAnalysis , isLoading, setLoading, error, setError } = useFormStore();
 
   const [urlInput, setUrlInput] = useState("");
 
